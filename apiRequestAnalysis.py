@@ -59,7 +59,7 @@ def apiRequestAnalysis(logfile):
 			print ('{0:.2f}%\t{1:,}\t{2}'.format(
 				round(pcnt_of_total,2),
 				api_call_count,
-				api_call)
+				'/api/' + api_call)
 			)
 			
 		print ('{0:,} Total api requests'.format(total_api_calls))
